@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9495E8F01974D1BF00BC94D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495E8EF1974D1BF00BC94D2 /* Foundation.framework */; };
+		9495E8F21974D1BF00BC94D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495E8F11974D1BF00BC94D2 /* CoreGraphics.framework */; };
+		9495E8F41974D1BF00BC94D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495E8F31974D1BF00BC94D2 /* UIKit.framework */; };
+		9495E8FA1974D1BF00BC94D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9495E8F81974D1BF00BC94D2 /* InfoPlist.strings */; };
+		9495E8FC1974D1BF00BC94D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E8FB1974D1BF00BC94D2 /* main.m */; };
+		9495E9001974D1BF00BC94D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E8FF1974D1BF00BC94D2 /* AppDelegate.m */; };
+		9495E9021974D1BF00BC94D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9495E9011974D1BF00BC94D2 /* Images.xcassets */; };
+		9495E9091974D1BF00BC94D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495E9081974D1BF00BC94D2 /* XCTest.framework */; };
+		9495E90A1974D1BF00BC94D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495E8EF1974D1BF00BC94D2 /* Foundation.framework */; };
+		9495E90B1974D1BF00BC94D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495E8F31974D1BF00BC94D2 /* UIKit.framework */; };
+		9495E9131974D1BF00BC94D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9495E9111974D1BF00BC94D2 /* InfoPlist.strings */; };
+		9495E9151974D1BF00BC94D2 /* braintubeProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E9141974D1BF00BC94D2 /* braintubeProfileTests.m */; };
+		9495E9241974D37100BC94D2 /* profiletopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E9221974D37100BC94D2 /* profiletopicsViewController.m */; };
+		9495E9251974D37100BC94D2 /* profiletopicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9495E9231974D37100BC94D2 /* profiletopicsViewController.xib */; };
+		9495E9291974D39100BC94D2 /* profilemixesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E9271974D39100BC94D2 /* profilemixesViewController.m */; };
+		9495E92A1974D39100BC94D2 /* profilemixesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9495E9281974D39100BC94D2 /* profilemixesViewController.xib */; };
+		9495E92E1974D3A800BC94D2 /* profilesavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E92C1974D3A800BC94D2 /* profilesavedViewController.m */; };
+		9495E92F1974D3A800BC94D2 /* profilesavedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9495E92D1974D3A800BC94D2 /* profilesavedViewController.xib */; };
+		9495E9331974D42200BC94D2 /* profilemainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495E9311974D42200BC94D2 /* profilemainViewController.m */; };
+		9495E9341974D42200BC94D2 /* profilemainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9495E9321974D42200BC94D2 /* profilemainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9495E90C1974D1BF00BC94D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9495E8E41974D1BF00BC94D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9495E8EB1974D1BF00BC94D2;
+			remoteInfo = braintubeProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9495E8EC1974D1BF00BC94D2 /* braintubeProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = braintubeProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495E8EF1974D1BF00BC94D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9495E8F11974D1BF00BC94D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9495E8F31974D1BF00BC94D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9495E8F71974D1BF00BC94D2 /* braintubeProfile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "braintubeProfile-Info.plist"; sourceTree = "<group>"; };
+		9495E8F91974D1BF00BC94D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9495E8FB1974D1BF00BC94D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9495E8FD1974D1BF00BC94D2 /* braintubeProfile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "braintubeProfile-Prefix.pch"; sourceTree = "<group>"; };
+		9495E8FE1974D1BF00BC94D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9495E8FF1974D1BF00BC94D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9495E9011974D1BF00BC94D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9495E9071974D1BF00BC94D2 /* braintubeProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = braintubeProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495E9081974D1BF00BC94D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9495E9101974D1BF00BC94D2 /* braintubeProfileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "braintubeProfileTests-Info.plist"; sourceTree = "<group>"; };
+		9495E9121974D1BF00BC94D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9495E9141974D1BF00BC94D2 /* braintubeProfileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = braintubeProfileTests.m; sourceTree = "<group>"; };
+		9495E9211974D37100BC94D2 /* profiletopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profiletopicsViewController.h; sourceTree = "<group>"; };
+		9495E9221974D37100BC94D2 /* profiletopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profiletopicsViewController.m; sourceTree = "<group>"; };
+		9495E9231974D37100BC94D2 /* profiletopicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profiletopicsViewController.xib; sourceTree = "<group>"; };
+		9495E9261974D39100BC94D2 /* profilemixesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profilemixesViewController.h; sourceTree = "<group>"; };
+		9495E9271974D39100BC94D2 /* profilemixesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profilemixesViewController.m; sourceTree = "<group>"; };
+		9495E9281974D39100BC94D2 /* profilemixesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profilemixesViewController.xib; sourceTree = "<group>"; };
+		9495E92B1974D3A800BC94D2 /* profilesavedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profilesavedViewController.h; sourceTree = "<group>"; };
+		9495E92C1974D3A800BC94D2 /* profilesavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profilesavedViewController.m; sourceTree = "<group>"; };
+		9495E92D1974D3A800BC94D2 /* profilesavedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profilesavedViewController.xib; sourceTree = "<group>"; };
+		9495E9301974D42200BC94D2 /* profilemainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profilemainViewController.h; sourceTree = "<group>"; };
+		9495E9311974D42200BC94D2 /* profilemainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profilemainViewController.m; sourceTree = "<group>"; };
+		9495E9321974D42200BC94D2 /* profilemainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profilemainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9495E8E91974D1BF00BC94D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495E8F21974D1BF00BC94D2 /* CoreGraphics.framework in Frameworks */,
+				9495E8F41974D1BF00BC94D2 /* UIKit.framework in Frameworks */,
+				9495E8F01974D1BF00BC94D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495E9041974D1BF00BC94D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495E9091974D1BF00BC94D2 /* XCTest.framework in Frameworks */,
+				9495E90B1974D1BF00BC94D2 /* UIKit.framework in Frameworks */,
+				9495E90A1974D1BF00BC94D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9495E8E31974D1BF00BC94D2 = {
+			isa = PBXGroup;
+			children = (
+				9495E8F51974D1BF00BC94D2 /* braintubeProfile */,
+				9495E90E1974D1BF00BC94D2 /* braintubeProfileTests */,
+				9495E8EE1974D1BF00BC94D2 /* Frameworks */,
+				9495E8ED1974D1BF00BC94D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9495E8ED1974D1BF00BC94D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9495E8EC1974D1BF00BC94D2 /* braintubeProfile.app */,
+				9495E9071974D1BF00BC94D2 /* braintubeProfileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9495E8EE1974D1BF00BC94D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9495E8EF1974D1BF00BC94D2 /* Foundation.framework */,
+				9495E8F11974D1BF00BC94D2 /* CoreGraphics.framework */,
+				9495E8F31974D1BF00BC94D2 /* UIKit.framework */,
+				9495E9081974D1BF00BC94D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9495E8F51974D1BF00BC94D2 /* braintubeProfile */ = {
+			isa = PBXGroup;
+			children = (
+				9495E8FE1974D1BF00BC94D2 /* AppDelegate.h */,
+				9495E8FF1974D1BF00BC94D2 /* AppDelegate.m */,
+				9495E9011974D1BF00BC94D2 /* Images.xcassets */,
+				9495E8F61974D1BF00BC94D2 /* Supporting Files */,
+				9495E9301974D42200BC94D2 /* profilemainViewController.h */,
+				9495E9311974D42200BC94D2 /* profilemainViewController.m */,
+				9495E9321974D42200BC94D2 /* profilemainViewController.xib */,
+				9495E9211974D37100BC94D2 /* profiletopicsViewController.h */,
+				9495E9221974D37100BC94D2 /* profiletopicsViewController.m */,
+				9495E9231974D37100BC94D2 /* profiletopicsViewController.xib */,
+				9495E9261974D39100BC94D2 /* profilemixesViewController.h */,
+				9495E9271974D39100BC94D2 /* profilemixesViewController.m */,
+				9495E9281974D39100BC94D2 /* profilemixesViewController.xib */,
+				9495E92B1974D3A800BC94D2 /* profilesavedViewController.h */,
+				9495E92C1974D3A800BC94D2 /* profilesavedViewController.m */,
+				9495E92D1974D3A800BC94D2 /* profilesavedViewController.xib */,
+			);
+			path = braintubeProfile;
+			sourceTree = "<group>";
+		};
+		9495E8F61974D1BF00BC94D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9495E8F71974D1BF00BC94D2 /* braintubeProfile-Info.plist */,
+				9495E8F81974D1BF00BC94D2 /* InfoPlist.strings */,
+				9495E8FB1974D1BF00BC94D2 /* main.m */,
+				9495E8FD1974D1BF00BC94D2 /* braintubeProfile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9495E90E1974D1BF00BC94D2 /* braintubeProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				9495E9141974D1BF00BC94D2 /* braintubeProfileTests.m */,
+				9495E90F1974D1BF00BC94D2 /* Supporting Files */,
+			);
+			path = braintubeProfileTests;
+			sourceTree = "<group>";
+		};
+		9495E90F1974D1BF00BC94D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9495E9101974D1BF00BC94D2 /* braintubeProfileTests-Info.plist */,
+				9495E9111974D1BF00BC94D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9495E8EB1974D1BF00BC94D2 /* braintubeProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495E9181974D1BF00BC94D2 /* Build configuration list for PBXNativeTarget "braintubeProfile" */;
+			buildPhases = (
+				9495E8E81974D1BF00BC94D2 /* Sources */,
+				9495E8E91974D1BF00BC94D2 /* Frameworks */,
+				9495E8EA1974D1BF00BC94D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = braintubeProfile;
+			productName = braintubeProfile;
+			productReference = 9495E8EC1974D1BF00BC94D2 /* braintubeProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9495E9061974D1BF00BC94D2 /* braintubeProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495E91B1974D1BF00BC94D2 /* Build configuration list for PBXNativeTarget "braintubeProfileTests" */;
+			buildPhases = (
+				9495E9031974D1BF00BC94D2 /* Sources */,
+				9495E9041974D1BF00BC94D2 /* Frameworks */,
+				9495E9051974D1BF00BC94D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9495E90D1974D1BF00BC94D2 /* PBXTargetDependency */,
+			);
+			name = braintubeProfileTests;
+			productName = braintubeProfileTests;
+			productReference = 9495E9071974D1BF00BC94D2 /* braintubeProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9495E8E41974D1BF00BC94D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = youtubeux;
+				TargetAttributes = {
+					9495E9061974D1BF00BC94D2 = {
+						TestTargetID = 9495E8EB1974D1BF00BC94D2;
+					};
+				};
+			};
+			buildConfigurationList = 9495E8E71974D1BF00BC94D2 /* Build configuration list for PBXProject "braintubeProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9495E8E31974D1BF00BC94D2;
+			productRefGroup = 9495E8ED1974D1BF00BC94D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9495E8EB1974D1BF00BC94D2 /* braintubeProfile */,
+				9495E9061974D1BF00BC94D2 /* braintubeProfileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9495E8EA1974D1BF00BC94D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495E8FA1974D1BF00BC94D2 /* InfoPlist.strings in Resources */,
+				9495E92F1974D3A800BC94D2 /* profilesavedViewController.xib in Resources */,
+				9495E92A1974D39100BC94D2 /* profilemixesViewController.xib in Resources */,
+				9495E9341974D42200BC94D2 /* profilemainViewController.xib in Resources */,
+				9495E9251974D37100BC94D2 /* profiletopicsViewController.xib in Resources */,
+				9495E9021974D1BF00BC94D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495E9051974D1BF00BC94D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495E9131974D1BF00BC94D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9495E8E81974D1BF00BC94D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495E9001974D1BF00BC94D2 /* AppDelegate.m in Sources */,
+				9495E9291974D39100BC94D2 /* profilemixesViewController.m in Sources */,
+				9495E92E1974D3A800BC94D2 /* profilesavedViewController.m in Sources */,
+				9495E9241974D37100BC94D2 /* profiletopicsViewController.m in Sources */,
+				9495E8FC1974D1BF00BC94D2 /* main.m in Sources */,
+				9495E9331974D42200BC94D2 /* profilemainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495E9031974D1BF00BC94D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495E9151974D1BF00BC94D2 /* braintubeProfileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9495E90D1974D1BF00BC94D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9495E8EB1974D1BF00BC94D2 /* braintubeProfile */;
+			targetProxy = 9495E90C1974D1BF00BC94D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9495E8F81974D1BF00BC94D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9495E8F91974D1BF00BC94D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9495E9111974D1BF00BC94D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9495E9121974D1BF00BC94D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9495E9161974D1BF00BC94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9495E9171974D1BF00BC94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9495E9191974D1BF00BC94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "braintubeProfile/braintubeProfile-Prefix.pch";
+				INFOPLIST_FILE = "braintubeProfile/braintubeProfile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9495E91A1974D1BF00BC94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "braintubeProfile/braintubeProfile-Prefix.pch";
+				INFOPLIST_FILE = "braintubeProfile/braintubeProfile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9495E91C1974D1BF00BC94D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/braintubeProfile.app/braintubeProfile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "braintubeProfile/braintubeProfile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "braintubeProfileTests/braintubeProfileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9495E91D1974D1BF00BC94D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/braintubeProfile.app/braintubeProfile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "braintubeProfile/braintubeProfile-Prefix.pch";
+				INFOPLIST_FILE = "braintubeProfileTests/braintubeProfileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9495E8E71974D1BF00BC94D2 /* Build configuration list for PBXProject "braintubeProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495E9161974D1BF00BC94D2 /* Debug */,
+				9495E9171974D1BF00BC94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9495E9181974D1BF00BC94D2 /* Build configuration list for PBXNativeTarget "braintubeProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495E9191974D1BF00BC94D2 /* Debug */,
+				9495E91A1974D1BF00BC94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9495E91B1974D1BF00BC94D2 /* Build configuration list for PBXNativeTarget "braintubeProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495E91C1974D1BF00BC94D2 /* Debug */,
+				9495E91D1974D1BF00BC94D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9495E8E41974D1BF00BC94D2 /* Project object */;
+}
